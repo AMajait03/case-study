@@ -1,18 +1,17 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #000;
-    color: #fbe1cd;
+    color: white;
     margin: 0;
 }
 
-.header-container {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5em;
-    position: fixed;
+    padding: 1em;
+    position: sticky;
     top: 0;
-    width: 116em;
     z-index: 1000;
     background-color: #000000;
 }
@@ -20,20 +19,22 @@ body {
 h1 {
     color: #fba579;
     margin: 0;
+    text-transform: uppercase;
 }
 
-header nav {
+.navbar ul {
+    list-style: none;
     display: flex;
     gap: 1em;
 }
 
-header nav a {
-    text-decoration: none;
+.navbar ul a {
     color: black;
     background-color: #fbe1cd;
     padding: 0.3125em 0.9375em;
     border-radius: 2em;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .hero {
@@ -42,17 +43,7 @@ header nav a {
     color: white;
 }
 
-header nav a:hover {
-    text-decoration: none;
-    color: black;
-    background-color: #f56613;
-    padding: 0.3125em 0.9375em;
-    border-radius: 2em;
-    font-weight: bold;
-}
-
 .hero img {
-    margin-top: 5em;
     width: 100%;
     height: auto;
     display: block;
@@ -71,8 +62,7 @@ header nav a:hover {
 
 .read-more-btn {
     margin-top: 10px;
-    background-color: #000;
-    color: #fba579;
+    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -149,7 +139,6 @@ header nav a:hover {
 }
 
 .image-grid {
-    margin-top: 5em;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0px;
@@ -157,7 +146,7 @@ header nav a:hover {
 }
 
 .image-grid img {
-    width: 100%;
+    width: 102.5%;
     height: 26.7em;
 }
 
@@ -166,7 +155,7 @@ header nav a:hover {
     margin-bottom: 20px;
     background-color: #ffcc99;
     padding: 10px;
-    width: 156.9%;
+    width: 158.3%;
 }
 
 .Readmore-artist h1 {
@@ -186,7 +175,6 @@ header nav a:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    margin-top: 100px;
 }
   
 .poster {
@@ -210,7 +198,6 @@ header nav a:hover {
 
 .new-tittle {
     text-align: center;
-    margin-top: 150px;
   }
     
 .news-section {
@@ -242,7 +229,6 @@ header nav a:hover {
     display: flex;
     flex-direction: column;
     gap: 0em;
-    margin-top: 100px;
 }
 
 .title {
@@ -364,7 +350,6 @@ header nav a:hover {
     justify-content: center;
     padding: 20px;
     margin-left: 15em;
-    margin-top: 100px;
 }
   
   .Music-container h2 {
@@ -422,7 +407,6 @@ header nav a:hover {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    margin-top: 100px;
 }
 
 .contact-container {
@@ -456,7 +440,6 @@ header nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
 }
 
 .aboutUs1 {
@@ -491,64 +474,4 @@ footer {
 
 footer p {
     font-size: 0.9em; 
-}
-@media screen and (max-width: 768px) {
-    body {
-        font-size: 14px; 
-    }
-
-    .header-container {
-        flex-direction: column; 
-        padding: 1em; 
-    }
-
-    header nav {
-        display: flex;
-    }
-    
-    header nav a {
-        text-decoration: none;
-        color: black;
-        background-color: #fbe1cd;
-        padding: 0.3125em 0.9375em;
-        border-radius: 2em;
-        font-weight: bold;
-    }
-
-    .hero img {
-        margin-top: 2em; 
-    }
-
-    .album-tour {
-        flex-direction: column; 
-        padding: 1em; 
-    }
-
-    .latest-album, .tour {
-        max-width: 100%; 
-        padding: 0; 
-    }
-
-    .image-grid {
-        grid-template-columns: 1fr; 
-        width: 100%; 
-
-    .Music-container {
-        margin-left: 0; 
-        padding: 10px; 
-    }
-
-    .contact-container {
-        grid-template-columns: 1fr; 
-    }
-
-    .aboutUs1 {
-        width: 100%; 
-        padding: 1em;
-    }
-
-    footer {
-        font-size: 0.8em;
-    }
-}
 }
