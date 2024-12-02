@@ -620,9 +620,7 @@ footer p {
         max-width: 300px; /* Limit max width for iframes */
         border-radius: 5px; /* Add border radius */
     }
-
-
-
+    
     .album-tour {
         flex-direction: column;
         align-items: center;
