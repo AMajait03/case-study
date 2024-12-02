@@ -604,7 +604,7 @@ footer p {
 
     /* Adjust videos section */
     .videos {
-        width: %; /* Make videos section full width */
+        width: 100%; /* Make videos section full width */
         margin-top: 1em; /* Add margin for spacing */
         margin-left: 4em;
     }
