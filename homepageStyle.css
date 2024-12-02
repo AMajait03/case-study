@@ -535,6 +535,37 @@ footer p {
         border-radius: 50%; /* Keep border radius */
     }
 
+    /* Adjust about us section layout */
+    .aboutus-section {
+        padding: 1em; /* Add padding for better spacing */
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align items */
+    }
+
+    .aboutus-container {
+        width: 100%; /* Make container full width */
+        text-align: center; /* Center text */
+    }
+
+    .aboutUs1 {
+        width: 80%; /* Adjust image size for mobile */
+        height: auto; /* Maintain aspect ratio */
+        margin-bottom: 1em; /* Add margin for spacing */
+    }
+
+    .aboutus-details {
+        background-color: #ffcc99; /* Keep background color */
+        color: #000; /* Keep text color */
+        padding: 1em; /* Add padding for better spacing */
+        border-radius: 5px; /* Add border radius */
+        width: 90%; /* Make details responsive */
+    }
+
+    .aboutus-details p {
+        font-size: 1.2em; /* Adjust font size for readability */
+        margin: 0; /* Remove margin */
+    }
+
     .text p {
         font-size: 0.9em; /* Adjust font size for readability */
         margin: 5px 0; /* Maintain margin */
