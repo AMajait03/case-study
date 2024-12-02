@@ -475,13 +475,27 @@ footer {
 footer p {
     font-size: 0.9em; 
 }
-@media (max-width: 480px) {
+
+@media (max-width: 1440px) {
+    .latest-album img {
+        width: 30em;
+    }
+}
+
+@media (max-width: 1024px) {
     header {
-        font-size: 5px;
+        font-size: 14px;
     }
 
-    .navbar ul a {
-        font-size: 5px;
+    .latest-album img {
+        margin-left: 2.5em;
+        width: 25em;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 4px;
     }
 
     .hero-text {
@@ -494,133 +508,6 @@ footer p {
         padding: 0.4em 0.8em;
     }
 
-    .posters {
-        display: flex; /* Use flexbox for layout */
-        flex-direction: column; /* Stack posters vertically */
-        align-items: center; /* Center align items */
-        padding: 0; /* Remove padding */
-    }
-
-    .poster {
-        width: 90%; /* Make posters responsive */
-        margin-bottom: 1em; /* Add margin for spacing */
-        text-align: center; /* Center text */
-    }
-
-    .poster img {
-        width: 100%; /* Make images responsive */
-        height: auto; /* Maintain aspect ratio */
-        border-radius: 10px; /* Keep border radius */
-    }
-
-    .contact-section {
-        padding: 1em; /* Add padding for better spacing */
-    }
-
-    .contact-container {
-        display: flex; /* Use flexbox for layout */
-        flex-direction: column; /* Stack contact cards vertically */
-        align-items: center; /* Center align items */
-    }
-
-    .card {
-        width: 90%; /* Make cards responsive */
-        margin-bottom: 1em; /* Add margin for spacing */
-        text-align: center; /* Center text */
-    }
-
-    .contact-cover {
-        width: 60%; /* Adjust image size for mobile */
-        height: auto; /* Maintain aspect ratio */
-        border-radius: 50%; /* Keep border radius */
-    }
-
-    /* Adjust about us section layout */
-    .aboutus-section {
-        padding: 1em; /* Add padding for better spacing */
-        flex-direction: column; /* Stack elements vertically */
-        align-items: center; /* Center align items */
-    }
-
-    .aboutus-container {
-        width: 100%; /* Make container full width */
-        text-align: center; /* Center text */
-    }
-
-    .aboutUs1 {
-        width: 80%; /* Adjust image size for mobile */
-        height: auto; /* Maintain aspect ratio */
-        margin-bottom: 1em; /* Add margin for spacing */
-    }
-
-    .aboutus-details {
-        background-color: #ffcc99; /* Keep background color */
-        color: #000; /* Keep text color */
-        padding: 1em; /* Add padding for better spacing */
-        border-radius: 5px; /* Add border radius */
-        width: 90%; /* Make details responsive */
-    }
-
-    .aboutus-details p {
-        font-size: 1.2em; /* Adjust font size for readability */
-        margin: 0; /* Remove margin */
-    }
-
-    .text p {
-        font-size: 0.9em; /* Adjust font size for readability */
-        margin: 5px 0; /* Maintain margin */
-    }
-
-    .Music-container {
-        padding: 0em; /* Add padding for better spacing */
-        flex-direction: column; /* Stack elements vertically */
-        align-items: left; /* Center align items */
-        margin-left: 4em;
-        margin-right: 10em;
-    }
-
-    /* Adjust music track section */
-    .music-track {
-        width: 100%; /* Make music track section full width */
-        margin-bottom: 1em; /* Add margin for spacing */
-        margin-left: 0;
-        text-align: center; /* Center align text */
-        padding: 3em; /* Add padding for better spacing */
-        background-color: #fbd3c4; /* Keep background color */
-        border-radius: 5px; /* Add border radius */
-    }
-
-    .music-track ol {
-        padding-left: 0; /* Remove padding from list */
-    }
-
-    .music-track ol li {
-        margin: 0.5em 0; /* Add margin for spacing between list items */
-    }
-
-    .music-track ol li a {
-        font-size: 0.9em; /* Adjust font size for readability */
-    }
-
-    /* Adjust videos section */
-    .videos {
-        width: 100%; /* Make videos section full width */
-        margin-top: 1em; /* Add margin for spacing */
-        margin-left: 4em;
-    }
-
-    .video {
-        margin-bottom: 1em; /* Add margin for spacing between videos */
-        text-align: center; /* Center align videos */
-    }
-
-    .video iframe {
-        width: 100%; /* Make iframe responsive */
-        height: auto; /* Maintain aspect ratio */
-        max-width: 300px; /* Limit max width for iframes */
-        border-radius: 5px; /* Add border radius */
-    }
-    
     .album-tour {
         flex-direction: column;
         align-items: center;
@@ -633,128 +520,226 @@ footer p {
     }
 
     .latest-album img {
-        width: 20em;
+        width: 17em;
         margin-left: 13px;
     }
-        .album-section {
-            flex-direction: column; /* Stack album sections vertically */
-            align-items: center; /* Center align items */
-            text-align: center;
-            margin: 1em ; /* Add margin for spacing */
-        }
 
-        .title{
-            text-align: center;
-            margin: 0%;
-        }
-
-        .title1 {
-            text-align: center;
-            margin: 0%;
-        }
-        
-        .title2 {
-            text-align: center;
-            margin: 0%;
-        }
-        
-        .title3 {
-            text-align: center;
-            margin: 0%;
-        }
-        
-        .title4 {
-            text-align: center;
-            margin: 0%;
-        }
-        
-        .title5 {
-            text-align: center;
-            margin: 0%;
-        }
-        
-        .title6 {
-            text-align: center;
-            margin: 0%;
-        }
-        
-        .title7 {
-            text-align: center;
-            margin: 0%;
-        }
-        
-        .title8 {
-            text-align: center;
-            margin: 0%;
-        }
-        
-        .title9 {
-            text-align: center;
-            margin: 0%;
-        }
-        
-        .title10 {
-            text-align: center;
-            margin: 0%;
-        }
-        
-        .title11 {
-            text-align: center;
-            margin: 0%;
-        }
-        
-        .title12 {
-            text-align: center;
-            margin: 0%;
-        }
-        
-        .title13 {
-            text-align: center;
-            margin: 0%;
-        }
-        
-        .title14 {
-            text-align: center;
-            margin: 0%;
-        }
-        
-        .title15 {
-            text-align: center;
-            margin: 0%;
-        }
-    
-        .album-container {
-            flex-direction: column; /* Stack album cover and details vertically */
-            align-items: center; /* Center align items */
-            text-align: center; /* Center text */
-        }
-    
-        .album-cover {
-            width: 80%; /* Make album cover responsive */
-            margin: 0; /* Remove left margin */
-        }
-    
-        .album-details {
-            width: 80%; /* Make album details responsive */
-            margin: 0px; /* Remove left margin */
-        }
-    
-        /* Adjust tracklist styles */
-        .tracklist {
-            padding: 1; /* Remove padding */
-        }
-    
-        .tracklist ol {
-            padding-left: 1; /* Remove padding from ordered list */
-        }
-    
-        .tracklist li {
-            font-size: 0.8em; /* Adjust font size for better readability */
-        }
-    
-        /* Adjust footer styles */
-        footer {
-            padding: 1em; /* Add padding for better spacing */
-        }
-    
+    .image-grid {
+        width: 100%;
     }
+
+    .image-grid img {
+        width: 7.5em;
+        height: 10em;
+    }
+
+    .Readmore-artist {
+        text-align: center;
+        background-color: #ffcc99;
+        padding: 10px;
+        width: 94.5%;
+    }
+
+    .Readmore-artist h1 {
+        font-size: 15px;
+    }
+
+    .posters {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .poster {
+        width: 90%;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    .poster img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .album-section {
+        flex-direction: column;
+        align-items: center;
+        margin: 1em;
+    }
+
+    .title,
+    .title1,
+    .title2,
+    .title3,
+    .title4,
+    .title5,
+    .title6,
+    .title7,
+    .title8,
+    .title9,
+    .title10,
+    .title11,
+    .title12,
+    .title13,
+    .title14,
+    .title15 {
+        text-align: center;
+        margin: 0%;
+    }
+
+    .album-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .album-cover {
+        width: 80%;
+        margin: 0;
+    }
+
+    .album-details {
+        width: 80%;
+        margin: 0;
+    }
+
+    .tracklist {
+        padding: 1;
+    }
+
+    .tracklist ol {
+        padding-left: 1;
+    }
+
+    .tracklist li {
+        font-size: 0.8em;
+    }
+
+    .Music-container {
+        padding: 0em;
+        flex-direction: column;
+        align-items: left;
+        margin-left: 4em;
+        margin-right: 10em;
+    }
+
+    .music-track {
+        width: 100%;
+        margin-bottom: 1em;
+        margin-left: 0;
+        text-align: center;
+        padding: 3em;
+        background-color: #fbd3c4;
+        border-radius: 5px;
+    }
+
+    .music-track ol {
+        padding-left: 0;
+    }
+
+    .music-track ol li {
+        margin: 0.5em 0;
+    }
+
+    .music-track ol li a {
+        font-size: 0.9em;
+    }
+
+    .videos {
+        width: 100%;
+        margin-top: 1em;
+        margin-left: 4em;
+    }
+
+    .video {
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    .video iframe {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        border-radius: 5px;
+    }
+
+    .contact-section {
+        padding: 1em;
+    }
+
+    .contact-container {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    .contact-cover {
+        width: 60%;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    .text p {
+        font-size: 0.9em;
+        margin: 5px 0;
+    }
+
+    .aboutus-section {
+        padding: 1em;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutus-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .aboutUs1 {
+        width: 80%;
+        height: auto;
+        margin-bottom: 1em;
+    }
+
+    .aboutus-details {
+        background-color: #ffcc99;
+        color: #000;
+        padding: 1em;
+        border-radius: 5px;
+        width: 90%;
+    }
+
+    .aboutus-details p {
+        font-size: 1.2em;
+        margin: 0;
+    }
+
+    .Readmore-discrip {
+        font-size: 13px;
+    }
+
+    .news-section {
+        flex-direction: column;
+    }
+
+    .news-section img {
+        margin-left: 0;
+        max-width: 100%;
+    }
+
+    .guestingList li,
+    .interviewList li,
+    .colablist li {
+        font-size: 1.5em;
+        margin-left: 0;
+    }
+
+}
