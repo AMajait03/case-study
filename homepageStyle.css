@@ -62,7 +62,8 @@ header nav a {
 
 .read-more-btn {
     margin-top: 10px;
-    color: #fff;
+    background-color: #000;
+    color: #fba579;
     border: none;
     border-radius: 5px;
     cursor: pointer;
