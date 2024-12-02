@@ -492,3 +492,63 @@ footer {
 footer p {
     font-size: 0.9em; 
 }
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px; 
+    }
+
+    .header-container {
+        flex-direction: column; 
+        padding: 1em; 
+    }
+
+    header nav {
+        display: flex;
+    }
+    
+    header nav a {
+        text-decoration: none;
+        color: black;
+        background-color: #fbe1cd;
+        padding: 0.3125em 0.9375em;
+        border-radius: 2em;
+        font-weight: bold;
+    }
+
+    .hero img {
+        margin-top: 2em; 
+    }
+
+    .album-tour {
+        flex-direction: column; 
+        padding: 1em; 
+    }
+
+    .latest-album, .tour {
+        max-width: 100%; 
+        padding: 0; 
+    }
+
+    .image-grid {
+        grid-template-columns: 1fr; 
+        width: 100%; 
+
+    .Music-container {
+        margin-left: 0; 
+        padding: 10px; 
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr; 
+    }
+
+    .aboutUs1 {
+        width: 100%; 
+        padding: 1em;
+    }
+
+    footer {
+        font-size: 0.8em;
+    }
+}
+}
