@@ -477,7 +477,7 @@ footer p {
 }
 @media (max-width: 480px) {
     header {
-        font-size: 8px;
+        font-size: 5px;
     }
 
     .navbar ul a {
