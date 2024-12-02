@@ -62,17 +62,16 @@ header nav a {
 
 .read-more-btn {
     margin-top: 10px;
-    background-color: #ff9900;
     color: #fff;
     border: none;
-    padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 0.9rem;
 }
 
 .read-more-btn:hover {
-    background-color: #ff7700;
+    background-color: black;
+    padding: 10px;
 }
 
 .full-text {
@@ -134,6 +133,45 @@ header nav a {
     padding: 1em;
 }
 
+.Readmore-section {
+    max-width: 1200px;
+    margin: 0;
+}
+
+.image-grid {
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+    width: 158.6%;
+}
+
+.image-grid img {
+    width: 100%;
+    height: 26.7em;
+}
+
+.Readmore-artist {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #ffcc99;
+    padding: 10px;
+    width: 156.9%;
+}
+
+.Readmore-artist h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.Readmore-discrip {
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
 .posters {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -165,11 +203,6 @@ header nav a {
     margin-top: 150px;
   }
     
-  .new-tittle {
-    text-align: center;
-    margin-top: 150px;
-}
-
 .news-section {
     background-color: #ff9900;
     margin: 20px auto;
@@ -179,13 +212,13 @@ header nav a {
     gap: 20px;
     align-items: flex-start;
 }
-
+  
 .news-section img {
     margin-left: 200px;
     max-width: 400px;
     border-radius: 10px;
 }
-
+  
 .guestingList li,
 .interviewList li,
 .colablist li {
@@ -448,211 +481,4 @@ footer {
 
 footer p {
     font-size: 0.9em; 
-}
-
-@media only screen and (max-width: 600px) {
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #000;
-        color: #fbe1cd;
-        margin: 0;
-    }
-
-    .header-container {
-        position: fixed;
-        top: 0;
-        width: 98%;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 1em;
-        z-index: 1000;
-        font-size: 0.5rem;
-    }
-
-    header nav {
-        flex-direction: row;
-        gap: 0.5em;
-    }
-
-    .hero img {
-        margin-top: 3em;
-    }
-
-    .hero-text {
-        font-size: 0.1em;
-        padding: 10px;
-    }
-
-    .read-more-btn {
-        font-size: 0.1rem;
-        padding: 0.4em 0.8em;
-    }
-
-    .album-tour {
-        flex-direction: column;
-        align-items: center;
-        padding: 1em;
-    }
-
-    .tour img, .latest-album img {
-        max-width: 100%;
-        border: none;
-    }
-
-    .latest-album {
-        max-width: 100%;
-        padding: 1em;
-    }
-
-    .latest-album img {
-        margin-left: 0;
-    }
-
-    .latest-album h2, .latest-album h3 {
-        font-size: 1.2em;
-    }
-
-    .latest-album p {
-        font-size: 0.9em;
-        text-align: left;
-    }
-
-    .posters {
-        grid-template-columns: 1fr;
-        gap: 15px;
-        margin-top: 50px;
-    }
-
-    .poster {
-        padding: 10px;
-    }
-
-    .poster img {
-        width: 100%;
-        border-radius: 5px;
-    }
-
-    .plus {
-        height: auto;
-    }
-
-    .poster h1 {
-        font-size: 1.5em;
-        font-weight: normal;
-    }
-
-    .new-tittle {
-        margin-top: 50px; /* Adjust title margin for smaller screens */
-        font-size: 1.5em; /* Adjust font size for smaller screens */
-    }
-
-    .news-section {
-        flex-direction: column; /* Stack items vertically */
-        padding: 15px; /* Reduce padding */
-    }
-
-    .news-section img {
-        margin-left: 0; /* Remove left margin */
-        max-width: 100%; /* Allow image to scale */
-        margin-bottom: 15px; /* Add some space below the image */
-    }
-
-    .guestingList li,
-    .interviewList li,
-    .colablist li {
-        font-size: 1.5em; /* Adjust font size for smaller screens */
-        margin-left: 0; /* Remove left margin */
-    }
-
-    .album-section {
-        margin-top: 50px;
-        padding: 10px;
-        flex-direction: column;
-        gap: 1em; /* Adjusted gap for mobile screens */
-    }
-
-    .title, .title1, .title2, .title3, .title4, .title5, .title6, .title7, .title8, .title9, .title10, .title11, .title12, .title13, .title14, .title15 {
-        margin-left: 0; /* Remove large margins for smaller screens */
-        text-align: center; /* Center-align titles */
-        color: white;
-    }
-
-    .album-container {
-        display: flex;
-        flex-direction: column; /* Stack albums vertically */
-        align-items: center;
-        gap: 1em; /* Adjust gap for mobile */
-    }
-
-    .album-cover {
-        width: 80%; /* Adjust album cover to take up more space on smaller screens */
-        margin-left: 0; /* Remove left margin */
-    }
-
-    .album-details {
-        width: 90%; /* Adjust the width of album details for smaller screens */
-        height: auto; /* Allow height to adjust based on content */
-        margin-left: 0; /* Remove left margin */
-        column-count: 1; /* Display one column for mobile */
-        padding: 10px; /* Adjust padding */
-    }
-
-    .tracklist ol {
-        padding-left: 0; /* Remove padding */
-        font-size: 1em; /* Adjust font size for readability */
-    }
-
-    .tracklist li {
-        margin-bottom: 0.5em; /* Adjust margin between list items */
-        margin-left: 1.5em;
-    }
-
-    .contact-section {
-        flex-direction: column; /* Stack content vertically */
-        padding: 10px;
-        margin-top: 50px; /* Adjust margin-top */
-    }
-
-    .contact-container {
-        grid-template-columns: 1fr; /* Change to a single column layout */
-        gap: 20px; /* Reduce gap between items */
-    }
-
-    .card {
-        margin: 2em 0; /* Adjust margin for better spacing on mobile */
-        width: 90%; /* Ensure cards take up most of the width */
-    }
-
-    .contact-cover {
-        width: 12em; /* Reduce the size of the contact image */
-        height: 12em; /* Maintain aspect ratio */
-        margin-bottom: 8px; /* Adjust bottom margin */
-    }
-
-    .text p {
-        font-size: 12px; /* Adjust font size for readability */
-        margin: 3px 0; /* Reduce margin between paragraphs */
-    }
-
-    .aboutus-section {
-        flex-direction: column; /* Stack the content vertically */
-        margin-top: 50px; /* Adjust margin-top */
-        padding: 10px;
-    }
-
-    .aboutUs1 {
-        width: 90%; /* Make it responsive to fit smaller screens */
-        padding: 1.5em; /* Reduce padding for smaller screens */
-    }
-
-    .aboutus-details {
-        width: 100%; /* Make the details section take up the full width */
-        height: auto; /* Let the height adjust based on content */
-        padding: 1em;
-    }
-
-    .aboutus-details p {
-        font-size: 1.5em; /* Reduce font size for better readability */
-        text-align: left; /* Align text to the left for easier reading on mobile */
-    }
 }
