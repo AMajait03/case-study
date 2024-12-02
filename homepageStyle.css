@@ -475,3 +475,39 @@ footer {
 footer p {
     font-size: 0.9em; 
 }
+@media (max-width: 480px) {
+    header {
+        font-size: 4px;
+    }
+
+    .navbar ul a {
+        font-size: 5px;
+    }
+
+    .hero-text {
+        font-size: 7px;
+        padding: 10px;
+    }
+
+    .read-more-btn {
+        font-size: 7px;
+        padding: 0.4em 0.8em;
+    }
+
+    .album-tour {
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+    }
+
+    .latest-album {
+        max-width: 100%;
+        padding: 1em;
+    }
+
+    .latest-album img {
+        width: 20em;
+        margin-left: 13px;
+    }
+
+}
