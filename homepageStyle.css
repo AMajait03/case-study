@@ -42,6 +42,15 @@ header nav a {
     color: white;
 }
 
+header nav a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: #f56613;
+    padding: 0.3125em 0.9375em;
+    border-radius: 2em;
+    font-weight: bold;
+}
+
 .hero img {
     margin-top: 5em;
     width: 100%;
