@@ -728,10 +728,13 @@ footer p {
 
     .news-section {
         flex-direction: column;
+        margin-bottom: 0em;
+        padding-bottom: 0em;
     }
 
     .news-section img {
         margin-left: 0;
+        margin-bottom: 0em;
         max-width: 100%;
     }
 
@@ -740,6 +743,14 @@ footer p {
     .colablist li {
         font-size: 1.5em;
         margin-left: 0;
+    }
+
+    footer {
+        text-align: center;
+        padding: 0.625em; 
+        background: black;
+        color: white;
+        margin-top: 1.25em;
     }
 
 }
